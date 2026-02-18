@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fgdb-tools"
+version = "0.4.0"
+description = "Import/export Esri FileGDB layers to/from GeoJSON, Shapefile, and KML."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "geopandas>=0.13",
+  "pyogrio>=0.7",
+  "shapely>=2.0",
+]
+authors = [{name="Wendell McGowan"}]
+license = {text = "MIT"}
+
+[project.scripts]
+fgdb-import = "fgdb_tools.cli:main_import"
+fgdb-export = "fgdb_tools.cli:main_export"
+fgdb-gui = "fgdb_tools.gui:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

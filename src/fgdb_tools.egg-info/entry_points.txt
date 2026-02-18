@@ -1,0 +1,4 @@
+[console_scripts]
+fgdb-export = fgdb_tools.cli:main_export
+fgdb-gui = fgdb_tools.gui:main
+fgdb-import = fgdb_tools.cli:main_import
