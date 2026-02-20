@@ -1,12 +1,12 @@
-# AI Assisted with ChatGPT 5.2 model
+# *AI Assisted with ChatGPT 5.2 model
 # fgdb-tools
 
-# This project converts Geospatial Data Containers (.kml, .shp, .geojson) into an Esri File Geodatabase as featureclasses as well as export Featureclasses from Esri File Geodatabases into a user selected Geospatial Data Container. Includes CLI as well as GUI
+This project converts Geospatial Data Containers (.kml, .shp, .geojson) into an Esri File Geodatabase as featureclasses as well as export Featureclasses from Esri File Geodatabases into a user selected Geospatial Data Container. Includes CLI as well as GUI
 
 ## To Do List:
-##    Enable FGDB -> FGDB
-##    Better GUI
-##    Data preview using basemaps
+  Enable FGDB -> FGDB
+  Better GUI
+  Data preview using basemaps
 
 Two CLI tools:
 
